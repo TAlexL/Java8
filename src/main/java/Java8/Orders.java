@@ -10,4 +10,8 @@ public class Orders {
         this.vegan = vegan;
         this.customerName = ordersName;
     }
+    @Override
+    public String toString(){
+        return "Your eat cost " + price + " for " + vegan + "by " + customerName;
+    }
 }

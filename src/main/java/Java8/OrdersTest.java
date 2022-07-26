@@ -18,5 +18,10 @@ public class OrdersTest {
         Orders order7 = new Orders(90, true, "Ivan");
 
         List<Orders>ordersList = Arrays.asList(order1, order2, order3, order4, order5, order6, order7);
+
+        Filters filters = new Filters (ordersList);
+        filters.filterByPrice();
+        filters.filterByVegan();
+        filters.filterByCostumerName();
     }
 }
