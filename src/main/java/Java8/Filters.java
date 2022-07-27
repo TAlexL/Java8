@@ -6,7 +6,8 @@ public class Filters {
 
     List<Orders> ordersList;
 
-    Filters (List<Orders> ordersList){
+    Filters (List<Orders>ordersList){
+
         this.ordersList = ordersList;
     }
     public void filterByPrice(){
