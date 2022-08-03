@@ -1,11 +1,11 @@
 package Java8;
 
-public class Orders {
+public class Order {
     int price;
     boolean vegan;
     String customerName;
 
-    public Orders(int price, boolean vegan, String ordersName) {
+    public Order(int price, boolean vegan, String ordersName) {
         this.price = price;
         this.vegan = vegan;
         this.customerName = ordersName;
